@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background: url('./img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#home{
+
+    #card{
+
+        .nav{
+            padding: 10px;
+            z-index: 1;
+
+            a{
+                margin: 15px;
+                font-size: 18px;
+                color: #fff;
+                text-decoration: none;
+                font-weight: 400;
+
+                &:hover{
+                    border-bottom: white;
+                    color: lighten($color: #333, $amount: 0.1);
+                    transition: 400ms ease-in;
+                }
+            }
+        }
+    
+        #content{
+            z-index: 1;
+            margin-left: 9%;
+            margin-top: 12%;
+
+            h1{
+                font-size: 55px;
+                color: #fff;
+            }
+
+            p{
+                color: #fff;
+            }
+        }
+
+        img{
+            height: 90vh;
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 28% 51%);
+            margin-left: 25%;
+            display: none;
+        }
+    }
+}
+
+#projects{
+    margin-top: 20%;
+
+    #header{
+        text-align: center;
+        margin: 50px 0px;
+        
+        h1{
+            font-size: 45px;
+            color: #fff;
+        }
+
+        p{
+            color: #fff;
+        }
+    }
+
+    #cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+
+        .card{
+            box-shadow: 10px 0px 10px 0px #333;
+            border: 1px solid #333;
+            background-color: transparent;
+            color: #fff;
+
+            .btn{
+                background-color: transparent;
+                border: 1px solid #333;
+
+                &:hover{
+                    background-color: darken($color: #333, $amount: 2);
+                    transition: 200ms;
+                }
+            }
+        }
+    }
+}
+
+#about{
+    margin: 10px 10px;
+
+    .btn{
+        background-color: transparent;
+        color: #333;
+        border: 1px solid #333;
+
+        &:hover{
+            background-color: darken($color: #333, $amount: 2);
+            color: #fff;
+            transition: 200ms;
+        }
+    }
+}
+
+#contact{
+    
+    a{
+        color: #000;
+    }
+}
+
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
