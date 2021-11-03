@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.697b2689.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.7328f8de.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.7328f8de.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.7eaade39.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.7eaade39.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/portfolio-website/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.d4d0fa99.chunk.js": "/portfolio-website/static/js/2.d4d0fa99.chunk.js",
+    "static/js/2.d4d0fa99.chunk.js.map": "/portfolio-website/static/js/2.d4d0fa99.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/portfolio-website/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.697b2689.chunk.css.map": "/portfolio-website/static/css/main.697b2689.chunk.css.map",
+    "static/js/2.d4d0fa99.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.d4d0fa99.chunk.js.LICENSE.txt",
+    "static/media/Product Landing Page.0689dc58.png": "/portfolio-website/static/media/Product Landing Page.0689dc58.png",
+    "static/media/TechHub.637e5713.png": "/portfolio-website/static/media/TechHub.637e5713.png",
+    "static/media/App.css": "/portfolio-website/static/media/background.178a9e35.jpg",
+    "static/media/cape-travel.98c093b7.png": "/portfolio-website/static/media/cape-travel.98c093b7.png",
+    "static/media/microsoft-homepage.c5d6db7c.png": "/portfolio-website/static/media/microsoft-homepage.c5d6db7c.png",
+    "static/media/movie-streaming.ee8b4cdf.png": "/portfolio-website/static/media/movie-streaming.ee8b4cdf.png",
+    "static/media/online-store.41621140.png": "/portfolio-website/static/media/online-store.41621140.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eaade39.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.d4d0fa99.chunk.js",
+    "static/css/main.697b2689.chunk.css",
+    "static/js/main.7328f8de.chunk.js"
+  ]
+}
