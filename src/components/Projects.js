@@ -4,7 +4,7 @@ import TechHub from '../img/TechHub.png'
 import Smartwatch from '../img/Product Landing Page.png';
 import Microsoft from '../img/microsoft-homepage.png';
 import Appeal from '../img/online-store.png';
-import Travel from '../img/cape-travel.png';
+import Form from '../img/form.png';
 import Infinite from '../img/movie-streaming.png';
 
 function Projects() {
@@ -31,7 +31,7 @@ function Projects() {
                                 <p>I used Saas for the color scheme and general feel of the website.</p>
                             </Card.Text>
                             <Card.Text>
-                                <p>JavaScript is used for the Offcanvas Hamburger menu when on smaller devices.</p>
+                                <p>JavaScript is used for the hamburger menu when on smaller devices.</p>
                             </Card.Text>
                         </Card.Body>
                             <Button href="https://daleroberts0712.github.io/TechHub-react/" target="_blank">Website</Button>
@@ -49,11 +49,28 @@ function Projects() {
                                 <p>Bootstrap is used for the layout of the website.</p>
                             </Card.Text>
                             <Card.Text>
-                                <p>JavaScript is used for the Hamburger menu and the on scroll slide in animation.</p>
+                                <p>JavaScript is used for the Hamburger menu.</p>
                             </Card.Text>
                         </Card.Body>
                             <Button href="https://daleroberts0712.github.io/landing-page/" target="_blank">Website</Button>
                             <Button href="https://github.com/daleroberts0712/landing-page" target="_blank">Github Code</Button>
+                    </Card>
+
+                    <Card>
+                        <Card.Img src={Form} />
+                        <Card.Body>
+                            <Card.Title><h3>Login/Register Form</h3></Card.Title>
+                            <Card.Text>
+                                <p>A Basic Login/Register Form built with a Php Backend and a MySql Database</p>
+                            </Card.Text>
+                            <Card.Text>
+                                <p>Php was used for the backend of the form, also the alerts when the login is successful or failed!</p>
+                                <p>MySql was used as the database, where the registered passwords and usernames are saved to and on login retrieved.</p>
+                                <p>The Google and Facebook Login Api's are used as forms of login.</p>
+                            </Card.Text>
+                        </Card.Body>
+                            <Button href="https://daleroberts0712.github.io/account-login/login.html" target="_blank">Website</Button>
+                            <Button href="https://github.com/daleroberts0712/account-login" target="_blank">Github Code</Button>
                     </Card>
 
                     <Card>
@@ -67,7 +84,7 @@ function Projects() {
                                 <p>CSS was used for mainly the layout, Bootstrap was used for the Carousel Slide.</p>
                             </Card.Text>
                             <Card.Text>
-                                <p>JavaScript was used for the Carousel Slideshow, for the Hamburger menu and for the all-microsoft dropdown link.</p>
+                                <p>JavaScript was used for the Carousel Slideshow, for the Hamburger menu and for the all-microsoft dropdown.</p>
                             </Card.Text>
                         </Card.Body>
                             <Button href="https://daleroberts0712.github.io/microsoft-clone/" target="_blank">Website</Button>
@@ -85,29 +102,11 @@ function Projects() {
                                 <p>Bootstrap was used for the layout of the website.</p>
                             </Card.Text>
                             <Card.Text>
-                                <p>JavaScript was used to make the Carousel Slideshow and the on scroll fade in animation.</p>
+                                <p>JavaScript was used to make the Carousel a Slide show.</p>
                             </Card.Text>
                         </Card.Body>
                             <Button href="https://daleroberts0712.github.io/online-store/" target="_blank">Website</Button>
                             <Button href="https://github.com/daleroberts0712/online-store" target="_blank">Github Code</Button>
-                    </Card>
-
-                    <Card>
-                        <Card.Img src={Travel} />
-                        <Card.Body>
-                            <Card.Title><h3>Cape Travel</h3></Card.Title>
-                            <Card.Text>
-                                <p>A Traveling Website built with CSS, Bootstrap and JavaScript.</p>
-                            </Card.Text>
-                            <Card.Text>
-                                <p>Boostrap is mainly used for the total layout of the website.</p>
-                            </Card.Text>
-                            <Card.Text>
-                                <p>JavaScript was used for the Carousel Slideshow and the slide in animation.</p>
-                            </Card.Text>
-                        </Card.Body>
-                            <Button href="https://daleroberts0712.github.io/cape-travel/" target="_blank">Website</Button>
-                            <Button href="https://github.com/daleroberts0712/cape-travel" target="_blank">Github Code</Button>
                     </Card>
 
                     <Card>
@@ -121,7 +120,7 @@ function Projects() {
                                 <p>Boostrap is mainly used for the layout, CSS for minor tweeks.</p>
                             </Card.Text>
                             <Card.Text>
-                                <p>JavaScript is used for the Hamburger menu when on smaller devices and is used for retrieving the OMDB Api and displaying it when the user requests it.</p>
+                                <p>JavaScript is used for the hamburger menu when on smaller devices and is used for retrieving the OMDB Api and displaying it when the user requests it.</p>
                             </Card.Text>
                         </Card.Body>
                             <Button href="https://daleroberts0712.github.io/movie-api/index.html" target="_blank">Website</Button>
